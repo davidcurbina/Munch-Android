@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "305779290564",
+    "firebase_url": "https://munch-aee0f.firebaseio.com",
+    "project_id": "munch-aee0f",
+    "storage_bucket": "munch-aee0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305779290564:android:2203f3a2264ac44e",
+        "android_client_info": {
+          "package_name": "davidurbina.weplan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305779290564-v8e30v1jur69v30e6rpreun0cuqjkp14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "davidurbina.weplan",
+            "certificate_hash": "F47B0338C8429D17190EC20FAE053DC9D8130770"
+          }
+        },
+        {
+          "client_id": "305779290564-9a204pkeseluhicenplvvn7rql816dm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6FZfME_SYQnIMlKsJYSfqFot1F-zd66E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305779290564-9a204pkeseluhicenplvvn7rql816dm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

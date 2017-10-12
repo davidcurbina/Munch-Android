@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WePlan</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_">Login_Activity</string>
+    <string name="title_activity_location_">Location_Activity</string>
+    <string name="title_activity_main__activty">Munch</string>
+    <string name="title_activity_category_activity">category_activity</string>
+    <string name="title_activity_item__activtiy">Item_Activtiy</string>
+    <string name="title_activity_options_">Options_Activity</string>
+</resources>

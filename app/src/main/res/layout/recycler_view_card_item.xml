@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        card_view:contentPadding="0dp"
+        card_view:cardElevation="5dp"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardUseCompatPadding="true"
+        android:backgroundTintMode="src_in"
+        android:padding="-1dp">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+
+                <ImageView
+                    android:id="@+id/img_thumbnail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="1"
+                    android:maxHeight="300dp"
+                    android:tint="#3c000000"
+                    android:tintMode="src_over" />
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="left|center_vertical|center"
+                    android:alpha="1"
+                    android:textSize="24sp"
+                    android:text="Test"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:typeface="sans"
+                    android:inputType="none"
+                    android:ellipsize="start"
+                    android:visibility="visible"
+                    android:autoText="false"
+                    android:textAlignment="gravity"
+                    android:layout_gravity="left"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_alignParentBottom="false"
+                    android:layout_alignBottom="@+id/img_thumbnail" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:gravity="center_vertical"
+                android:textColor="#ff3d3d3d"
+                android:alpha="0.8"
+                android:textSize="14dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:padding="16dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvDistance"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:textColor="#ff4646"
+                android:alpha="0.8"
+                android:textSize="12dp"
+                android:text="Not Available"
+                android:gravity="bottom|right"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:paddingRight="@dimen/activity_horizontal_margin" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

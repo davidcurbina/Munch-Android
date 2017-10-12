@@ -1,0 +1,90 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="40dp"
+        android:visibility="visible">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/imgback"
+            android:src="@drawable/arrow"
+            android:scaleType="fitStart"
+            android:layout_weight=".75"
+            android:background="#00ffffff"
+            android:layout_gravity="left" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="40dp"
+            android:visibility="visible"
+            android:layout_weight="4"
+            android:background="@drawable/round_bg"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_weight="4">
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText"
+                    android:hint="Username"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:id="@+id/editText3"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Login"
+                android:id="@+id/button2"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/round_button"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_weight="8" >
+
+        </LinearLayout>
+
+    </LinearLayout>
+</merge>
